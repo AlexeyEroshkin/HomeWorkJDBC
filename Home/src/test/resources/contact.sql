@@ -7,9 +7,3 @@ CREATE TABLE CONTACT (
                          EMAIL varchar (255),
                          PHONE_NUMBER varchar (255)
 );
-
-INSERT INTO CONTACT(ID, NAME, SURNAME, EMAIL, PHONE_NUMBER)
-VALUES (1000, 'Ivan', 'Ivanov', 'iivanov@gmail.com', '1234567');
-
-INSERT INTO CONTACT(ID, NAME, SURNAME, EMAIL, PHONE_NUMBER)
-VALUES (2000, 'Maria', 'Ivanova', 'mivanova@gmail.com', '7654321');
